@@ -25,9 +25,9 @@ import v_microAir from './imgs/logos/v_microAir.png';
 import v_original_filter from './imgs/logos/v_original_filter.png';
 
 const data = [
-  new Catalogo('FRAM','http://fram.com.br/fram/index.php', v_fram),
+  new Catalogo('FRAM','https://www.sogefifilterdivision.com/catalogues/FO/scripts/accueil.php?zone=FR&catalogue=FRAM&lang=PO', v_fram),
   new Catalogo('Japanparts', 'http://www.japanparts.com.br/', v_japanparts),
-  new Catalogo('Japanparts IT', 'http://db.japanparts.it/cjapan/ricerca.jsp?lang=15', v_japanparts_italia),
+  new Catalogo('Japanparts I', 'http://db.japanparts.it/cjapan/ricerca.jsp?lang=15', v_japanparts_italia),
   new Catalogo('Tecfil','http://www.gruposofape.com.br/tecfil/catalogo/vr_bra/index.php', v_tecfil),
   new Catalogo('Baldwin','http://catalog.baldwinfilter.com/', v_baldwin),
   new Catalogo('Purolator','https://www.mann-hummel.com/pu_prodkata_12/index.html', v_purolator),
