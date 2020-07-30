@@ -28,7 +28,7 @@ const data = [
   new Catalogo('FRAM','https://www.sogefifilterdivision.com/catalogues/FO/scripts/accueil.php?zone=FR&catalogue=FRAM&lang=PO', v_fram),
   new Catalogo('Japanparts', 'http://www.japanparts.com.br/', v_japanparts),
   new Catalogo('Japanparts IT', 'http://db.japanparts.it/cjapan/ricerca.jsp?lang=15', v_japanparts_italia),
-  new Catalogo('Tecfil','http://www.gruposofape.com.br/tecfil/catalogo/vr_bra/index.php', v_tecfil),
+  new Catalogo('Tecfil','http://tecfil-catalago.gruposofape.com.br/CatalogoTecfil/', v_tecfil),
   new Catalogo('Baldwin','http://catalog.baldwinfilter.com/', v_baldwin),
   new Catalogo('Purolator','https://www.mann-hummel.com/pu_prodkata_12/index.html', v_purolator),
   new Catalogo('Donaldson EUA','https://dynamic.donaldson.com/WebStore/search/cross_reference.html?functionCode=WEBC_PRODUCT_SEARCH&requestStateKey=1311788203820', v_donald_eua),
