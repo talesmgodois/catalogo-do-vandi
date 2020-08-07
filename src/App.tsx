@@ -3,6 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import { Catalogo } from './types';
 import { CatalogoItem } from './components/CatalogoItem';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-34354623-2');
+  ReactGA.pageview('/');
+}
 
 import v_fram from './imgs/logos/v_fram.png';
 import v_japanparts from './imgs/logos/v_japanparts.png';
@@ -47,6 +53,7 @@ const data = [
 ]
 
 function App() {
+  initializeReactGA();
   const listaDeCatalogos = data.map((catalogo, index) => {
     return <CatalogoItem catalogo = {catalogo} key={index} />
   })
