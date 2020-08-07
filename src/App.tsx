@@ -25,7 +25,7 @@ import v_microAir from './imgs/logos/v_microAir.png';
 import v_original_filter from './imgs/logos/v_original_filter.png';
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-34354623-2');
+  ReactGA.initialize('UA-34354623-3');
   ReactGA.pageview('/');
 }
 
