@@ -1,14 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Catalogo } from './types';
 import { CatalogoItem } from './components/CatalogoItem';
 import ReactGA from 'react-ga';
-
-function initializeReactGA() {
-  ReactGA.initialize('UA-34354623-2');
-  ReactGA.pageview('/');
-}
 
 import v_fram from './imgs/logos/v_fram.png';
 import v_japanparts from './imgs/logos/v_japanparts.png';
@@ -29,6 +23,11 @@ import v_filtros_brasil from './imgs/logos/v_filtros_brasil.png';
 import v_parker from './imgs/logos/v_parker.png';
 import v_microAir from './imgs/logos/v_microAir.png';
 import v_original_filter from './imgs/logos/v_original_filter.png';
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-34354623-2');
+  ReactGA.pageview('/');
+}
 
 const data = [
   new Catalogo('FRAM','https://www.sogefifilterdivision.com/catalogues/FO/scripts/accueil.php?zone=FR&catalogue=FRAM&lang=PO', v_fram),
