@@ -39,7 +39,7 @@ const data = [
   // new Catalogo('Donaldson EUA','https://dynamic.donaldson.com/WebStore/search/cross_reference.html?functionCode=WEBC_PRODUCT_SEARCH&requestStateKey=1311788203820', v_donald_eua),
   new Catalogo('Donaldson EUA','https://shop.donaldson.com/store/pt-br/home?_requestid=2320431', v_donald_eua),
   new Catalogo('Donaldson Aus', 'http://www.donaldsontoolbox.com.au/search/crossreference/index/1', v_donald_australia),
-  new Catalogo('Wega Original','https://wegamotors.com/catalogo/', v_wega),
+  new Catalogo('Wega Original','https://wegamotors.com/', v_wega),
   new Catalogo('Mann Brasil', 'http://catalog.mann-filter.com/BR/por', v_mann_br),
   new Catalogo('Mann EUR', 'https://www.mann-hummel.com/mf_prodkata_eur/index.html?iKeys=23.1.0.21.1', v_mann_eur),
   new Catalogo('Mann China', 'http://catalog.mann-filter.com/CN/eng/vehicle', v_mann_china),
