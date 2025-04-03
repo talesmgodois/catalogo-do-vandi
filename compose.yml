@@ -1,0 +1,7 @@
+services:
+  catalogo:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "82:80"
+
